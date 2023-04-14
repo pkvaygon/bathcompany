@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_back {
+    background-image: url('../../images/home_background.webp');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-origin: border-box;
+    width: 100%;
+    height: 600px;
+}
+
+.home_container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.home_wrapper {
+    width: 100%;
+    height: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home_title {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    background: rgba(35, 16, 142, 0.324);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    border-radius: 10px;
+}
+
+.home_form {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    background: rgba(35, 16, 142, 0.324);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
+    border-radius: 10px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.home_link {
+    width: 180px;
+    height: 180px;
+}
+.home_link a{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 300ms;
+}
+.home_link a:hover{
+transform: scale(1.2);
+}
+.home_form .home_link a img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:768px) {
+    .home_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .home_title {
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    .home_back {
+        background-image: url('../../images/home_background.webp');
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-origin: border-box;
+        width: 100%;
+        height: 900px;
+    }
+.home_form{
+width: 80%;
+margin: 10px auto;
+height: 250px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.home_link {
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+}
+@media only screen and (min-width:769px) and (max-width:900px){
+    .home_form{
+        width: 300px;
+        margin: 10px auto;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+        .home_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        }
+        .home_title {
+            display: flex;
+            justify-content: stretch;
+            align-items: center;
+            width: 500px;
+            font-size: 0.7em;
+        }
+        .home_link {
+            width: 90px;
+            height: 90px;
+            cursor: pointer;
+        }
+}
