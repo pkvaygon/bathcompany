@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from '../../images/STR-removebg-preview.png'
 import './header.css'
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false);

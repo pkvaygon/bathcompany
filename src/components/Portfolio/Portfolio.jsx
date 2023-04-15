@@ -1,20 +1,20 @@
-import React from 'react';
-import './portfolio.css'
-import testimg from '../../images/bath-portfolio.jpg'
-import port7 from '../../images/port7.jpg'
-import port1 from '../../images/port1.jpg'
-import port2 from '../../images/port2.jpg'
-import port3 from '../../images/port3.jpg'
-import port4 from '../../images/port4.jpg'
-import port5 from '../../images/port5.jpg'
-import port6 from '../../images/port6.jpg'
+import React from "react";
+import "./portfolio.css";
+import testimg from "../../images/bath-portfolio.jpg";
+import port7 from "../../images/port7.jpg";
+import port1 from "../../images/port1.jpg";
+import port2 from "../../images/port2.jpg";
+import port3 from "../../images/port3.jpg";
+import port4 from "../../images/port4.jpg";
+import port5 from "../../images/port5.jpg";
+import port6 from "../../images/port6.jpg";
 const Portfolio = () => {
-    return (
-        <div id="ourPortfolio" className="portfolio_section">
+  return (
+    <div id="ourPortfolio" className="portfolio_section">
       <div className="container_port">
         <section>
           <div className="portfolio_title_block2">
-            <h2 className="portfolio_title2">OutPortfolio</h2>
+            <h2 className="portfolio_title2">Our Portfolio</h2>
           </div>
         </section>
         <div className="row contain">
@@ -25,7 +25,8 @@ const Portfolio = () => {
                 Bath <span>Refinishing</span>
               </h2>
               <p>
-              Transform your worn-out bathtub into a brand-new one with our efficient and cost-effective bath refinishing service.
+                Transform your worn-out bathtub into a brand-new one with our
+                efficient and cost-effective bath refinishing service.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -53,7 +54,9 @@ const Portfolio = () => {
                 Installation of <span>Mixers</span>
               </h2>
               <p>
-              Our expert technicians ensure seamless installation of mixers, providing you with efficient and durable solutions for your daily use.
+                Our expert technicians ensure seamless installation of mixers,
+                providing you with efficient and durable solutions for your
+                daily use.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -81,7 +84,9 @@ const Portfolio = () => {
                 Bath <span>Cleaning</span>
               </h2>
               <p>
-              Our professional bath cleaning service restores your bathtub to its original shine, leaving it sparkling clean and fresh for your next relaxing soak.
+                Our professional bath cleaning service restores your bathtub to
+                its original shine, leaving it sparkling clean and fresh for
+                your next relaxing soak.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -111,7 +116,9 @@ const Portfolio = () => {
                 Finishing with <span>Spray</span>
               </h2>
               <p>
-              Our premium bath spray finish provides a durable and long-lasting coating, enhancing the look and feel of your bathtub while protecting it from wear and tear.
+                Our premium bath spray finish provides a durable and
+                long-lasting coating, enhancing the look and feel of your
+                bathtub while protecting it from wear and tear.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -138,7 +145,9 @@ const Portfolio = () => {
                 Installing a <span>New Bath</span>
               </h2>
               <p>
-              Our skilled technicians offer hassle-free installation of a new bath, providing you with a refreshing and comfortable space for your daily relaxation.
+                Our skilled technicians offer hassle-free installation of a new
+                bath, providing you with a refreshing and comfortable space for
+                your daily relaxation.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -165,7 +174,9 @@ const Portfolio = () => {
                 Mediun Bathroom <span>Renovation</span>
               </h2>
               <p>
-              Our modern bathroom renovation service elevates your bathroom with sleek designs, high-quality materials, and efficient fixtures, creating a luxurious and functional space.
+                Our modern bathroom renovation service elevates your bathroom
+                with sleek designs, high-quality materials, and efficient
+                fixtures, creating a luxurious and functional space.
               </p>
               <div className="more">
                 <a href="#" className="read-more">
@@ -188,7 +199,7 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Portfolio;

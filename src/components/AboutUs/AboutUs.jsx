@@ -1,20 +1,12 @@
 import React from "react";
 import "./aboutUs.css";
-import port from "../../images/home_background.webp"
-import car1 from '../../images/car_img1.jpg'
-import car2 from '../../images/car_img2.jpg'
-import car3 from '../../images/car_img.jpg'
-import car4 from '../../images/car_img4.jpg'
+import car1 from "../../images/car_img1.jpg";
+import car2 from "../../images/car_img2.jpg";
+import car3 from "../../images/car_img.jpg";
+import car4 from "../../images/car_img4.jpg";
 import { Carousel } from "antd";
 
 const AboutUs = () => {
-  const contentStyle = {
-    height: "160px",
-    color: "#fff",
-    lineHeight: "160px",
-    textAlign: "center",
-    background: "#364d79",
-  };
   return (
     <div className="about-us-section" id="aboutUs">
       <section className="about-us">
@@ -22,6 +14,26 @@ const AboutUs = () => {
           <div className="aboutUs-wrapper">
             <div className="aboutUs_title">
               <h2>About Us</h2>
+            </div>
+            <div className="aboutUs_extra_info">
+              <ul>
+                <li>
+                  service life, warranty: <span>5 years</span>
+                </li>
+                <li>
+                  Total working time : <span>3-4 hours</span>
+                </li>
+                <li>
+                  Drying: <span>24 hours</span>
+                </li>
+                <li>
+                  Odorless and non-toxic paint, <span>Not a spray</span>
+                </li>
+                <li>
+                  high quality paint and <span>epoxy resin used</span>{" "}
+                </li>
+                <li>call: <span>+1(312)848-9008</span></li>
+              </ul>
             </div>
             <div className="aboutUs-content">
               <div className="aboutUs-text">
@@ -65,19 +77,34 @@ const AboutUs = () => {
               <div className="aboutUs-img">
                 <Carousel autoplay>
                   <div>
-                    <img className="d-block w-100 carousel-img" src={car1} alt="1" />
+                    <img
+                      className="d-block w-100 carousel-img"
+                      src={car1}
+                      alt="1"
+                    />
                   </div>
                   <div>
-                  <img className="d-block w-100 carousel-img" src={car2} alt="2" />
+                    <img
+                      className="d-block w-100 carousel-img"
+                      src={car2}
+                      alt="2"
+                    />
                   </div>
                   <div>
-                  <img className="d-block w-100 carousel-img" src={car3} alt="3" />
+                    <img
+                      className="d-block w-100 carousel-img"
+                      src={car3}
+                      alt="3"
+                    />
                   </div>
                   <div>
-                  <img className="d-block w-100 carousel-img" src={car4} alt="4" />
+                    <img
+                      className="d-block w-100 carousel-img"
+                      src={car4}
+                      alt="4"
+                    />
                   </div>
                 </Carousel>
-               
               </div>
             </div>
           </div>
